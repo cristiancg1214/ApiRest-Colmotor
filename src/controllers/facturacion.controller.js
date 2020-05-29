@@ -36,6 +36,7 @@ const numeroFactura = async (req, res) => {
 };
 
 const createTMP = async (req, res) => {
+  const hola;
   const { codigo_producto, cantidad, precio } = req.body;
   let response;
   try {
